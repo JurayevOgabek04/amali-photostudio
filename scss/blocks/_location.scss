@@ -1,0 +1,99 @@
+.location{
+    // position: relative;
+    margin-top: 60px;
+    background: url(/images/location-back.png) no-repeat;
+    background-size: 100%;
+    
+  
+
+
+}
+
+.location__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+}
+
+.location__images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.location__image{
+    border-radius: 15px;
+    
+}
+
+.location__wrap{
+    height: 600px;
+    position: relative;
+    
+}
+
+.location__link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 74px;
+
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    left: 552px;
+    top: 592px;
+
+    background: linear-gradient(180deg, #FFA96B -21.43%, #EE7A28 100%);
+    border-radius: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+   
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 54px;
+
+    color: #FFFFFF;
+}
+
+.button__location{
+    position: relative;
+}
+
+.button__location__left,
+.button__location__right{
+
+    &:hover{
+        fill: #F2F4F4;
+        stroke: #E97522;
+    }
+
+    &:active{
+        fill: #E97522;
+        stroke: #FFFFFF;
+    }
+}
+
+.button__location__left{
+    position: absolute;
+    top: -220px;
+    left: -50px;
+}
+
+.button__location__right{
+    position: absolute;
+    top: -220px;
+    left: 1195px;
+}

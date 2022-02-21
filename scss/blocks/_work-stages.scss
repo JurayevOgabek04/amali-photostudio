@@ -1,0 +1,133 @@
+.work-stages{
+    margin-top: 1900px;
+    
+}
+
+.work-stages__wrap{
+    position: relative;
+    
+    background-image: url(/images/stages-line.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: top 200px right 0;
+    height: 1000px;
+}
+
+.work-stages__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+}
+
+.work-stages__item{
+    position: absolute;
+    width: 348px;
+    height: 190px;
+    border: 2px solid #E97522;
+    box-sizing: border-box;
+    box-shadow: 0px 24px 38px rgba(220, 220, 220, 0.14), 0px 9px 46px rgba(216, 216, 216, 0.12), 0px 11px 15px rgba(221, 221, 221, 0.2);
+    border-radius: 12px;
+    background-color: #FFFFFFFF;
+    padding: 30px;
+}
+
+.work-stages__subtitle{  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333333;
+    
+}
+
+.work-stages__description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4A4A4A;
+    width: 305px;
+    
+}
+
+.work-stages__item:nth-child(2){ 
+    top: 90px;
+    left: 60px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(/images/bir.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        left: -20px;
+        top: 150px;
+    }
+
+}
+
+.work-stages__item:nth-child(3){ 
+    top: 180px;
+    left: 740px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(/images/ikki.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        left: -20px;
+        top: 150px;
+    }
+
+}
+
+.work-stages__item:nth-child(4){ 
+    top: 480px;
+    left: 200px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(/images/tort.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        left: -20px;
+        top: 150px;
+    }
+
+}
+
+.work-stages__item:nth-child(5){ 
+    top: 480px;
+    left: 910px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(/images/uch.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        left: -20px;
+        top: 150px;
+    }
+
+}
+
+.work-stages__item:nth-child(6){ 
+    top: 710px;
+    left: 670px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(/images/besh.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        left: -20px;
+        top: 150px;
+    }
+
+}
+

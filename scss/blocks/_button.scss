@@ -1,0 +1,23 @@
+#button{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.button__left,
+.button__right{
+    
+    &:hover{
+        fill: #F2F4F4;
+        stroke: #E97522;
+    }
+
+    &:active{
+        fill: #E97522;
+        stroke: #FFFFFF;
+    }
+}
+
+

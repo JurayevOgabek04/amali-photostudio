@@ -1,0 +1,118 @@
+.reviews{
+    margin-top: 80px;
+    height: 900px;
+}
+
+.reviews{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 32px;
+    
+}
+
+.reviews__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    position: relative;
+}
+
+.reviews__block__left,
+.reviews__block,
+.reviews__block__right{
+    width: 32%;
+    
+}
+
+.reviews__block__left__name,
+.reviews__block__name,
+.reviews__block__right__name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.reviews__block__left__description,
+.reviews__block__description,
+.reviews__block__right__description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+.reviews__block__link{
+    width: 342px;
+    height: 48px;
+    background: linear-gradient(180deg, #FFA96B -21.43%, #EE7A28 100%);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 70px;
+}
+
+.reviews__block__left__text,
+.reviews__block__text,
+.reviews__block__right__text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #E97522;
+    
+}
+
+.reviews__block__text{
+    margin-bottom: 130px;
+}
+
+.button__wrap{
+    position: absolute;
+}
+
+.button__left,
+.button__right{
+    
+    &:hover{
+        fill: #F2F4F4;
+        stroke: #E97522;
+    }
+
+    &:active{
+        fill: #E97522;
+        stroke: #FFFFFF;
+    }
+}
+.button__left{
+    position: absolute;
+    top: -300px;
+    left: -845px;
+}
+
+.button__right{
+    position: absolute;
+    top: -300px;
+    left: 365px;
+}

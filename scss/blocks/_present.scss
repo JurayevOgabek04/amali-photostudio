@@ -1,0 +1,110 @@
+.present{
+    margin-top: 81px;
+    
+}
+
+.present__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 32px;
+}
+
+.present__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F2F4F4;
+    border-radius: 25px;
+    height: 650px;
+    margin-top: 80px;
+    padding-bottom: 100px;
+
+}
+
+.present__wrapper__intro{ 
+    width: 50%;
+    padding-left: 120px;
+    position: relative;
+}
+
+.present__wrapper__intro__text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #C1C1C1;
+}
+
+.present__wrapper__intro__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #4A4A4A;
+    // margin: 0;
+}
+
+.present__wrapper__intro__description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4A4A4A;
+    margin-left: 40px;
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url(/images/present-intro.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 24px;
+        height: 24px;
+        left: 120px;
+    }
+}
+
+
+.present__wrapper__block__description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.present__wrapper__block__link{
+    width: 342px;
+    height: 48px;
+    background: linear-gradient(180deg, #FFA96B -21.43%, #EE7A28 100%);
+    border-radius: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 14px 98px;
+    text-decoration: none;
+}

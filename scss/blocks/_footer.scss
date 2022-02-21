@@ -1,0 +1,76 @@
+#site_footer{
+    margin-top: 80px;
+    background-color: #F2F4F4;
+}
+
+
+.site-footer{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #B1B1B1;
+    padding-bottom: 32px;
+
+}
+
+.footer-logo{
+    
+    width: 108px;
+    height: 35px;
+    left: 100px;
+}
+
+.footer__items{
+    display: flex;
+    list-style: none;
+}
+
+.footer__item + .footer__item{
+    margin-left: 32px;
+}
+
+.footer__item__link{
+    text-decoration: none;
+    color: #4A4A4A;
+    &:hover{
+        color: #333333;
+    }
+
+    &:active{
+        color: #E97522;
+    }
+}
+
+.footer__wrapper{
+    margin-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.footer___wrapper__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    margin-right: 32px;
+}
+
+.footer__wrapper__img + .footer__wrapper__img{
+    margin-left: 24px;
+}
+
+.footer__wrapper__img{
+    &:hover{
+        fill:  #919191;
+        
+    }
+
+    &:active{
+        fill: #E97522;
+    }
+}

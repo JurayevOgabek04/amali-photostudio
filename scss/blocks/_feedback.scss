@@ -1,0 +1,118 @@
+#feedback{
+    margin-top: 50px;
+    position: relative;
+}
+
+.feedback{
+    display: flex;
+    align-items: center;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url(/images/feedback.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 246px;
+        height: 241px;
+        left: 460px;
+        top: 90px;
+    }
+}
+
+.feedback__iframe{
+    border-radius: 25.8573px 0px 0px 25.8573px;
+  
+ 
+}
+
+.feedback__block{
+    display: flex;
+    flex-direction: column;
+    width: 701px;
+    height: 600px;
+    background: #F2F4F4;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback__block__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #4A4A4A;
+
+}
+.feedback__label__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #121621;
+    opacity: 0.4;
+
+}
+
+.feedback__label:nth-child(3){
+    margin: 36px 0;
+}
+.feedback__label__input{
+    width: 420px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #DDDEE4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+
+.feedback__label__input::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #B1B1B1;
+    opacity: 0.4;
+}
+
+.feedback__block__link{
+    width: 420px;
+    height: 48px;
+    background: linear-gradient(180deg, #FFA96B -21.43%, #EE7A28 100%);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 32px;
+}
+
+.feedback__block__description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #585858;
+
+    width: 400px;
+}

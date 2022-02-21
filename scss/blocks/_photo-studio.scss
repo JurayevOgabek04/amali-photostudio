@@ -1,0 +1,59 @@
+.photo-studio{
+    background-color: #F2F4F4;
+    
+    height: 461px;
+}
+
+.photo-studio__wrap{
+    padding: 60px 0;
+}
+
+.photo-studio__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+}
+
+.photo-studio__description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4A4A4A;
+}
+
+.photo-studio__description:nth-child(1),
+.photo-studio__description:nth-child(2),
+.photo-studio__description:nth-child(3){
+    margin: 0;
+}
+
+.photo-studio__link{
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #E97522;
+    position: relative;
+
+    text-decoration: none;
+    justify-content: end;
+    &::after{
+        content: "";
+        position: absolute;
+        background-image: url(/images/photo-studio.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        width: 100%;
+        height: 100%;
+        right: -30px;
+    }
+}

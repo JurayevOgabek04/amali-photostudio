@@ -1,0 +1,157 @@
+.services{
+    margin-top: 100px;
+    
+}
+
+.services__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+}
+
+.services__images{
+    margin-top: 80px;
+    position: relative;
+}
+
+.services__img{
+    position: absolute;   
+}
+
+
+
+.services__img:nth-child(1){
+    left: 0;
+    top: 0;
+   
+}
+.services__img:nth-child(2){
+    left: 0;
+    top: 365px;
+}
+.services__img:nth-child(3){
+    left: 0;
+    top: 730px;
+}
+.services__img:nth-child(4){
+    left: 0;
+    top: 1465px;
+    
+}
+.services__img:nth-child(5){
+    left: 430px;
+    top: 0;
+    
+}
+
+.services__img:nth-child(6){
+    left: 430px;
+    top: 730px;
+    
+}
+
+.services__img:nth-child(7){
+    left: 430px;
+    top: 1100px;
+    
+}
+
+.services__img:nth-child(8){
+    left: 430px;
+    top: 1465px;
+    
+}
+
+.services__img:nth-child(9){
+    left: 855px;
+    top: 0;
+    
+}
+
+.services__img:nth-child(10){
+    left: 855px;
+    top: 365px;
+    
+}
+.services__img:nth-child(11){
+    left: 855px;
+    top: 1465px;
+    
+}
+
+.services__descriptions{
+    position: relative;
+}
+
+.services__description{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.services__description:nth-child(1){
+    left: 32px;
+    top: 276px;
+   
+}
+.services__description:nth-child(2){
+    left: 32px;
+    top: 641px;
+}
+.services__description:nth-child(3){
+    left: 32px;
+    top: 1376px;
+}
+.services__description:nth-child(4){
+    left: 32px;
+    top: 1741px;
+    
+}
+.services__description:nth-child(5){
+    left: 462px;
+    top: 641px;
+    
+}
+
+.services__description:nth-child(6){
+    left: 462px;
+    top: 1006px;
+    
+}
+
+.services__description:nth-child(7){
+    left: 462px;
+    top: 1376px;
+    
+}
+
+.services__description:nth-child(8){
+    left: 462px;
+    top: 1741px;
+    
+}
+
+.services__description:nth-child(9){
+    left: 888px;
+    top: 276px;
+    
+}
+
+.services__description:nth-child(10){
+    left: 888px;
+    top: 1006px;
+    
+}
+.services__description:nth-child(11){
+    left: 888px;
+    top: 1741px;
+    
+}
